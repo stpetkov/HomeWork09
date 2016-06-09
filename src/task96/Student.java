@@ -1,4 +1,4 @@
-package Task96;
+package task96;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -44,6 +44,7 @@ public void addSubjectMark(){
 	subjects.put("newKey", changeKey);
 }
 public void calculateAvarageMark(){
-	
+	Integer changeKey = subjects.remove("oldKey");
+	subjects.get("key");
 }
 }
